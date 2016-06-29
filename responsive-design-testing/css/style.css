@@ -1,0 +1,173 @@
+/*
+    Global
+*/
+.display-none {
+    display: none;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.frame {
+    float: left;
+    margin-left: 20px;
+}
+
+.frame img {
+    display:none;
+}
+
+/*
+    Url
+*/
+#url {
+    margin:0 0 20px 0px;
+    display:block;
+}
+
+#url input[type=text] {
+    border:solid 1px #666;
+    width:85%;
+    margin:0 auto;
+    font-size:2em;
+    text-align:left;
+}
+
+#url input[type=submit] {
+    display:none;
+}
+
+#url #options {
+    float:right;
+    line-height:25px;
+    width:13%;
+}
+
+#url #options input {
+    margin-top:5px;
+}
+
+/*
+    Frame - 1
+*/
+#portrait-landscape-1-lable:before {
+    content: "Portrait";
+    color: #6495ed;
+}
+
+#portrait-landscape-1:checked + #portrait-landscape-1-lable:before {
+    color: #000;
+}
+
+#portrait-landscape-1-lable:after {
+    content: "Landscape";
+    color: #000;
+}
+
+#portrait-landscape-1:checked + #portrait-landscape-1-lable:after {
+    color: #6495ed;
+}
+
+#f1 {
+    width: 240px;
+    height: 320px;
+}
+
+#portrait-landscape-1:checked ~ #f1 {
+    width: 320px;
+    height: 240px;
+}
+
+/*
+    Frame - 2
+*/
+#portrait-landscape-2-lable:before {
+    content: "Portrait";
+    color: #6495ed;
+}
+
+#portrait-landscape-2:checked + #portrait-landscape-2-lable:before {
+    color: #000;
+}
+
+#portrait-landscape-2-lable:after {
+    content: "Landscape";
+    color: #000;
+}
+
+#portrait-landscape-2:checked + #portrait-landscape-2-lable:after {
+    color: #6495ed;
+}
+
+#f2 {
+    width: 320px;
+    height: 480px;
+}
+
+#portrait-landscape-2:checked ~ #f2 {
+    width: 480px;
+    height: 320px;
+}
+
+/*
+    Frame - 3
+*/
+#portrait-landscape-3-lable:before {
+    content: "Portrait";
+    color: #6495ed;
+}
+
+#portrait-landscape-3:checked + #portrait-landscape-3-lable:before {
+    color: #000;
+}
+
+#portrait-landscape-3-lable:after {
+    content: "Landscape";
+    color: #000;
+}
+
+#portrait-landscape-3:checked + #portrait-landscape-3-lable:after {
+    color: #6495ed;
+}
+
+#f3 {
+    width: 480px;
+    height: 640px;
+}
+
+#portrait-landscape-3:checked ~ #f3 {
+    width: 640px;
+    height: 480px;
+}
+
+/*
+    Frame - 4
+*/
+#portrait-landscape-4-lable:before {
+    content: "Portrait";
+    color: #6495ed;
+}
+
+#portrait-landscape-4:checked + #portrait-landscape-4-lable:before {
+    color: #000;
+}
+
+#portrait-landscape-4-lable:after {
+    content: "Landscape";
+    color: #000;
+}
+
+#portrait-landscape-4:checked + #portrait-landscape-4-lable:after {
+    color: #6495ed;
+}
+
+#f4 {
+    width: 768px;
+    height: 1024px;
+}
+
+#portrait-landscape-4:checked ~ #f4 {
+    width: 1024px;
+    height: 768px;
+}

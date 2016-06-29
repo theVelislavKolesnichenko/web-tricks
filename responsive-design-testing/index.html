@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>responsive-design-testing</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="url">
+        <form method="post">
+            <input type="text" placeholder="Enter Web Address...">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <div style="width: 1550px; margin-bottom: 20px;">
+        <div id="c1" class="frame">
+            <h2>240<span> x 320</span> <span class="small">(small phone)</span> <img src="loader_large.gif" /></h2>
+            <input type="checkbox" id="portrait-landscape-1" class="display-none" />
+            <label id="portrait-landscape-1-lable" for="portrait-landscape-1"> - </label>
+            <div></div>
+            <iframe id="f1" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+
+        <div id="c2" class="frame">
+            <h2>320<span> x 480</span> <span class="small">(phone)</span> <img src="loader_large.gif" /></h2>
+            <input type="checkbox" id="portrait-landscape-2" class="display-none" />
+            <label id="portrait-landscape-2-lable" for="portrait-landscape-2"> - </label>
+            <div></div>
+            <iframe id="f2" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+
+        <div id="c3" class="frame">
+            <h2>480<span> x 640</span> <span class="small">(small tablet)</span> <img src="loader_large.gif" /></h2>
+            <input type="checkbox" id="portrait-landscape-3" class="display-none" />
+            <label id="portrait-landscape-3-lable" for="portrait-landscape-3"> - </label>
+            <div></div>
+            <iframe id="f3" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+    </div>
+
+    <div style="width: 1550px; margin-bottom: 20px;">
+        <div id="c4" class="frame">
+            <h2>480<span> x 640</span> <span class="small">(tablet)</span> <img src="loader_large.gif" /></h2>
+            <input type="checkbox" id="portrait-landscape-4" class="display-none" />
+            <label id="portrait-landscape-4-lable" for="portrait-landscape-4"> - </label>
+            <div></div>
+            <iframe id="f4" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+
+        <div id="c5" class="frame display-none">
+            <input type="checkbox" id="portrait-landscape-5" class="display-none" />
+            <label id="portrait-landscape-5-lable" for="portrait-landscape-5"> - </label>
+            <div></div>
+            <iframe id="f5" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+
+        <div id="c6" class="frame display-none">
+            <input type="checkbox" id="portrait-landscape-6" class="display-none" />
+            <label id="portrait-landscape-6-lable" for="portrait-landscape-6"> - </label>
+            <div></div>
+            <iframe id="f6" sandbox="allow-same-origin allow-forms allow-scripts" seamless></iframe>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
